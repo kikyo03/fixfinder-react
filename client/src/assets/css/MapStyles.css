@@ -1,0 +1,32 @@
+.map_photo {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure the SVG scales properly on smaller screens */
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    rect {
+        width: 80px;
+        height: 80px;
+    }
+
+    text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    rect {
+        width: 60px;
+        height: 60px;
+    }
+
+    text {
+        font-size: 12px;
+    }
+}
